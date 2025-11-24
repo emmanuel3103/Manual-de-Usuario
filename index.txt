@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Manual de Usuario — Sistema EDI 301</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0 1.5rem 3rem;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    header {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    h1, h2, h3, h4 {
+      color: #222;
+    }
+    nav {
+      background: #f5f5f5;
+      border: 1px solid #ddd;
+      padding: 1rem;
+      margin-bottom: 2rem;
+    }
+    nav h2 {
+      margin-top: 0;
+    }
+    nav ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    nav li {
+      margin-bottom: 0.25rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #0066cc;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Manual de Usuario — Sistema EDI 301</h1>
+  <p>Equipo de desarrollo EDI 301 — Universidad Linda Vista</p>
+</header>
+
+<nav>
+  <h2>Índice</h2>
+  <ul>
+    <li><a href="#resumen">Resumen</a></li>
+    <li><a href="#proposito">Propósito</a></li>
+    <li><a href="#alcance">Alcance</a></li>
+
+    <li><a href="#sec1">1. Guía de instalación</a>
+      <ul>
+        <li><a href="#sec1-1">1.1 Requisitos previos</a></li>
+        <li><a href="#sec1-2">1.2 Instalación en dispositivo móvil (Android)</a></li>
+        <li><a href="#sec1-3">1.3 Actualización</a></li>
+      </ul>
+    </li>
+
+    <li><a href="#sec2">2. Guía de uso de funcionalidades principales</a>
+      <ul>
+        <li><a href="#sec2-1">2.1 Inicio de sesión</a></li>
+        <li><a href="#sec2-2">2.2 Navegación principal</a></li>
+        <li><a href="#sec2-3">2.3 Publicar Evento (solo administradores)</a></li>
+        <li><a href="#sec2-4">2.4 Consultar eventos</a></li>
+        <li><a href="#sec2-5">2.5 Compartir publicación</a></li>
+        <li><a href="#sec2-6">2.6 Consultar información del perfil</a></li>
+      </ul>
+    </li>
+
+    <li><a href="#sec3">3. Preguntas frecuentes (FAQ)</a></li>
+    <li><a href="#sec4">4. Solución de problemas comunes</a></li>
+    <li><a href="#conclusion">Conclusión</a></li>
+  </ul>
+</nav>
+
+<section id="resumen">
+  <h2>Resumen</h2>
+  <p>
+    El presente documento corresponde al Manual de Usuario del sistema EDI-301,
+    proporcionando las instrucciones básicas de instalación, uso y resolución
+    de problemas comunes. Su objetivo es guiar a los usuarios finales en el
+    manejo eficiente de la aplicación móvil y el sistema web asociados al
+    Programa EDI-301.
+  </p>
+</section>
+
+<section id="proposito">
+  <h2>Propósito</h2>
+  <p>
+    El propósito de este manual es brindar a los usuarios finales una guía clara,
+    accesible y estructurada que facilite el uso correcto de la aplicación EDI-301.
+    El documento explica cómo instalar la aplicación, cómo navegar dentro de sus módulos,
+    y cómo utilizar las principales funcionalidades disponibles. Asimismo, permite a los
+    usuarios comprender el funcionamiento general del sistema, garantizando una experiencia
+    eficiente y sin complicaciones.
+  </p>
+</section>
+
+<section id="alcance">
+  <h2>Alcance</h2>
+  <p>
+    Este manual abarca todas las funciones disponibles para los distintos perfiles
+    dentro del sistema EDI-301, incluyendo estudiantes, colaboradores y administradores.
+    Se incluyen instrucciones para la instalación, inicio de sesión, uso de módulos
+    principales como publicaciones, eventos, familias y perfil personal. No aborda temas
+    técnicos de implementación, mantenimiento del sistema o desarrollo de software,
+    los cuales pertenecen al manual técnico y al manual de mantenimiento.
+  </p>
+</section>
+
+<section id="sec1">
+  <h2>1. Guía de instalación</h2>
+
+  <section id="sec1-1">
+    <h3>1.1 Requisitos previos</h3>
+    <ul>
+      <li>Dispositivo Android 8.0 o iOS 13 o superior.</li>
+      <li>Conexión a Internet estable.</li>
+      <li>Espacio libre mínimo de 100 MB.</li>
+    </ul>
+  </section>
+
+  <section id="sec1-2">
+    <h3>1.2 Instalación en dispositivo móvil (Android)</h3>
+    <ol>
+      <li>Abrir Google Play Store.</li>
+      <li>Buscar la aplicación <strong>EDI 301</strong>.</li>
+      <li>Presionar <strong>Instalar</strong>.</li>
+      <li>Abrir la aplicación una vez descargada.</li>
+    </ol>
+  </section>
+
+  <section id="sec1-3">
+    <h3>1.3 Actualización</h3>
+    <p>
+      Para actualizar la app, se puede buscar manualmente una nueva versión en:
+      <strong>Configuración → Acerca de EDI 301 → Buscar actualizaciones</strong>.
+    </p>
+  </section>
+</section>
+
+<section id="sec2">
+  <h2>2. Guía de uso de funcionalidades principales</h2>
+
+  <section id="sec2-1">
+    <h3>2.1 Inicio de sesión</h3>
+    <ol>
+      <li>Abrir la app EDI-301.</li>
+      <li>Escribir correo institucional y contraseña.</li>
+      <li>Presionar <strong>Iniciar sesión</strong>.</li>
+    </ol>
+  </section>
+
+  <section id="sec2-2">
+    <h3>2.2 Navegación principal</h3>
+    <p>
+      La barra inferior de navegación incluye los módulos:
+    </p>
+    <ul>
+      <li>Inicio</li>
+      <li>Familias</li>
+      <li>Eventos</li>
+      <li>Perfil</li>
+      <li>Notificaciones</li>
+    </ul>
+  </section>
+
+  <section id="sec2-3">
+    <h3>2.3 Publicar Evento (solo administradores)</h3>
+    <ol>
+      <li>Abrir módulo Eventos.</li>
+      <li>Presionar <strong>+ Nuevo evento</strong>.</li>
+      <li>Llenar información requerida.</li>
+      <li>Presionar <strong>Publicar</strong>.</li>
+    </ol>
+  </section>
+
+  <section id="sec2-4">
+    <h3>2.4 Consultar eventos</h3>
+    <ol>
+      <li>Ingresar al módulo Eventos.</li>
+      <li>Seleccionar un evento para ver su información.</li>
+      <li>Confirmar asistencia cuando esté disponible.</li>
+    </ol>
+  </section>
+
+  <section id="sec2-5">
+    <h3>2.5 Compartir publicación</h3>
+    <ol>
+      <li>Acceder al módulo Publicaciones.</li>
+      <li>Presionar <strong>Nueva publicación</strong>.</li>
+      <li>Agregar texto e imagen si se desea.</li>
+      <li>Publicar.</li>
+    </ol>
+  </section>
+
+  <section id="sec2-6">
+    <h3>2.6 Consultar información del perfil</h3>
+    <ol>
+      <li>Abrir el módulo Perfil.</li>
+      <li>Revisar datos personales y actualizables según permisos.</li>
+    </ol>
+  </section>
+</section>
+
+<section id="sec3">
+  <h2>3. Preguntas frecuentes (FAQ)</h2>
+  <p><strong>¿Requiere Internet?</strong> Sí, la app necesita conexión activa.</p>
+  <p><strong>¿Qué hago si olvidé mi contraseña?</strong> Usa la opción "¿Olvidaste tu contraseña?".</p>
+  <p><strong>¿Puedo cambiar mi correo?</strong> Solo administrador puede hacerlo.</p>
+</section>
+
+<section id="sec4">
+  <h2>4. Solución de problemas comunes</h2>
+  <p><strong>La app no inicia sesión:</strong> Verifica tu conexión o tus credenciales.</p>
+  <p><strong>No carga información:</strong> Desliza para refrescar o reinicia la app.</p>
+  <p><strong>No recibo notificaciones:</strong> Activa permisos de notificaciones en el dispositivo.</p>
+</section>
+
+<section id="conclusion">
+  <h2>Conclusión</h2>
+  <p>
+    Este manual facilita el uso de la aplicación EDI-301, guiando a los usuarios en instalación,
+    navegación y solución de problemas. Su diseño busca garantizar una experiencia fluida y clara
+    para todos los miembros del programa EDI.
+  </p>
+</section>
+
+</body>
+</html>
+
